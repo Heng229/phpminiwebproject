@@ -1,0 +1,32 @@
+DROP TABLE productPC;
+
+CREATE TABLE productPC (
+    prodId int(4) AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(20),
+    prodImgLoc VARCHAR(200),
+    model VARCHAR(100),
+    price DOUBLE (10,2),
+    os VARCHAR(20),
+    memory VARCHAR(20),
+    cpu VARCHAR (50),
+    gpu VARCHAR (50),
+    display VARCHAR (200),
+    storageDevice VARCHAR (50)
+);
+
+INSERT INTO productPC(type,prodImgLoc,model,price,os,memory,cpu,gpu,display,storageDevice) VALUES ('highperf','../Product Image & video/High performance/transparent/rogmothership.png','ROG Mothership (GZ700)',26999.00,'Windows 10 Home','64 GB DDR4 2666MHz','i9-9980HK','Nvidia GeForce RTX 2080 8 GB','17.3" Full HD IPS 144Hz 3ms with G-SYNC,100% sRGB','3x512GB NVME M.2 SSD');
+
+INSERT INTO productPC(type,prodImgLoc,model,price,os,memory,cpu,gpu,display,storageDevice) VALUES ('highperf','../Product Image & video/High performance/transparent/rogstrixg.svg','ROG Strix G (G731GU)',5799.00,'Windows 10 Home','8 GB DDR4 2666MHz','i7-9750H','Nvidia GeForce GTX 1660Ti 6 GB','17.3" FHD IPS 144Hz 3ms 100% sRGB','512 GB M.2 SSD');
+
+INSERT INTO productPC(type,prodImgLoc,model,price,os,memory,cpu,gpu,display,storageDevice) VALUES ('highperf','../Product Image & video/High performance/transparent/dellg5.jpg','DELL G5 15 5500',5199.00,'Windows 10 Home','8 GB DDR4 2933MHz','i7-10750H','Nvidia GeForce GTX 1650Ti 4 GB','15.6" FHD Anti-Glare LED 120Hz','512 GB M.2 PCIe NVMe SSD');
+
+INSERT INTO productPC(type,prodImgLoc,model,price,os,memory,cpu,gpu,display,storageDevice) VALUES ('highperf','../Product Image & video/High performance/transparent/msigs75.jpg','MSI GS75 Stealth 10SFS',14299.00,'Windows 10 Home','16 GB DDR4 2666MHz','i9-10980HK+HM470','Nvidia GeForce RTX 2070 SUPER Max-Q 8 GB','17.3" FHD 300Hz Thin Bezel 100%Srgb','1 TB NVMe PCIe Gen3x4 SSD');
+
+
+INSERT INTO productPC(type,prodImgLoc,model,price,os,memory,cpu,gpu,display,storageDevice) VALUES ('officeUse','../Product Image & video/office use/macbookair.jpg','MacBook Air',5599.00,'macOS','8 GB LPDDDR4X 3733 MHz','1.1Ghz quad-core i5, Turbo Boost up to 3.5GHz,with 6MB L3 cache','Intel Iris Plus Graphics , Thunderbolt 3-enabled external GPU','13.3" LED-backlit display IPS technology, 2560x1600 native resolution at 227 pixels per inch with support for millions of colours','512 GB PCIe SSD');
+
+INSERT INTO productPC(type,prodImgLoc,model,price,os,memory,cpu,gpu,display,storageDevice) VALUES ('officeUse','../Product Image & video/office use/msiwt75.jpg','MSI WT75 9SM',24999.00,'Windows 10 Pro without ODD','2x16 GB DDR4 2666MHz','Coffeelake refresh i9-9700K','Nvidia Quadro P5200 16GB with color KB','17.3" FHD 1920x1080 IPS 60Hz 72%NTSC Thin Bezel, close to 100%sRGB','Super Raid 4 2x512 GB NVMe PCIe Gen3x4 SSD');
+
+INSERT INTO productPC(type,prodImgLoc,model,price,os,memory,cpu,gpu,display,storageDevice) VALUES ('officeUse','../Product Image & video/office use/asus_zenbook_14.jpg','Asus ZenBook 14 UX434FL',3699.00,'Windows 10 Pro','8 GB LPDDR3 2133MHz SDRAM','i5-10210U','Nvidia GeForce MX250 2GB','14.0" LED backlit FHD 1920x1080 60Hz Glare Touchscreen with 72%NTSC with wide 178 degree viewing angles','PCIEG3x2 NVME 512 GB M.2 SSD');
+
+INSERT INTO productPC(type,prodImgLoc,model,price,os,memory,cpu,gpu,display,storageDevice) VALUES ('officeUse','../Product Image & video/office use/acer_swift_7.jpg','Acer Swift 7 SF713-51-M3SX',4699.00,'Windows 10 Home','8 GB LPDDR3 2133MHz','i5-7Y54 4MB L3 cache, 1.20GHz with Turbo Boost up to 3.20 GHz','Intel HD Graphics 615','13.3" LED backlit TFT LCD, FHD IPS 1920x1080','256 GB SSD');

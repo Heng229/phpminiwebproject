@@ -1,0 +1,26 @@
+DROP TABLE users
+
+CREATE TABLE users(
+   userId INT(5) AUTO_INCREMENT PRIMARY KEY,
+   userEmail VARCHAR(100) NOT NULL,
+   userName VARCHAR(100) NOT NULL,
+   userPass VARCHAR(100) NOT NULL,
+   phone VARCHAR(10)
+);
+
+1.
+email : test100@gmail.com
+username : testuser100
+update username : testuser001
+password : test1234
+update pass : test4321
+update contact : 0123456789
+
+2.
+email : test101@gmail.com
+username : testuser101
+update username : testuser201
+password : test12345
+update pass : test54321
+
+The password is hashed before saved in to the database.

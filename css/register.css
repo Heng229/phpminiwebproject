@@ -1,0 +1,73 @@
+/*----------------------------------------------------middle content START----------------------------------------------*/
+.container{
+    -moz-animation: fadein 0.5s;
+}
+
+.registerCont{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.registerCont form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 600px;
+    width: 60%;
+}
+
+.registerCont form label{
+    margin-top: 20px;
+    color: gray;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.registerCont form input{
+    text-align: center;
+    height: 70px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.registerCont .regLogButton{
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registerCont .regLogButton > a,button{
+    background-color: black;
+    color:#ccc;
+    border:1px solid black;
+    border-radius:5px ;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.registerCont .regLogButton > button{
+    height: 50px;
+}
+
+.registerCont .regLogButton > a  {
+    padding-top: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 35px;
+}
+
+.registerCont .regLogButton > a:hover,button:hover{
+    opacity: 0.8;
+    color: black;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.registerCont .regLogButton > a:active,button:active{
+    transform: scale(0.9);
+}
+/*----------------------------------------------------middle content END----------------------------------------------*/

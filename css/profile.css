@@ -1,0 +1,95 @@
+.containerProfile{
+    -moz-animation: fadein 0.5s;
+    margin-top:50px;
+    margin-bottom: 46px;
+}
+
+.formContainer{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+/*Personal Info Box*/
+.personalInfoBox{
+    justify-content: center;
+    display:flex;
+}
+
+#personalInfoStyle{
+    color: cyan;
+    background: black;
+    font-weight: bold;
+}
+/*Personal Info Box END*/
+
+.pageIndicator{
+    margin-left: 50px;
+    color:grey;
+    margin-bottom:4px;
+}
+
+.logoutButton{
+    cursor: pointer;
+    background-color: white;
+    border:1px solid black;
+    border-radius:5px;
+    font-weight: bold;
+    height: 25px;
+    width:190px;
+    margin-left: 50px;
+}
+
+.logoutButton:hover{
+    cursor: pointer;
+    background-color: black;
+    color:cyan;
+    margin-left: 50px;
+    -ms-transform: scale(1.1);
+    transform:scale(1.1);
+}
+
+.logoutButton:active{
+    background-color: #ccc;
+    color:black;
+    -ms-transform: scale(0.9);
+    transform:scale(0.9);
+}
+
+
+.chgPassBox{
+    align-self: flex-end;
+    width: 500px;
+}
+
+#inputBox{
+    height:40px;
+    width:250px
+}
+
+#chgButton{
+    cursor: pointer;
+    display:block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color:#8a7e7e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#chgButton:hover{
+    background-color: black;
+    color:cyan;
+    -ms-transform: scale(1.1);
+    transform:scale(1.1);
+}
+
+#chgButton:active{
+    background-color: #ccc;
+    color:black;
+    -ms-transform: scale(0.9);
+    transform:scale(0.9);
+}
+

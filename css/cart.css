@@ -1,0 +1,182 @@
+.containerCart{
+    -moz-animation: fadein 0.5s;
+    margin-bottom: 10px;
+}
+.cart{
+    height: 800px;
+    margin-top: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    overflow: auto;
+    background-color: black;
+}
+
+.cart img{
+    width:300px;
+    height:200px;
+}
+
+.headerCart{
+    color:gray;
+    font-size: 23px;
+}
+
+#listingtab{
+    color:cyan;
+    font-weight: bold;
+}
+
+#listingtab tr{
+    outline: cyan solid 5px ;
+    outline-style: outset;
+}
+
+.tabftColumn{
+    text-align: center;
+    width: 300px;
+}
+
+.tabsecColumn{
+    text-align: center;
+    width: 130px;
+}
+
+.tabthColumn,.tabfrColumn,.tabfiColumn,.tabsiColumn,.tabsvColumn{
+    text-align: center;
+    width: 120px;
+}
+
+.quantity{
+    height:50px;
+    width :60px;
+    background-color: black;
+    color:cyan;
+    border: none;
+    font-size: 30px;
+}
+
+.btn-rmv-all{
+    cursor: pointer;
+    height: 30px;
+    width: 110px;
+    background-color: red;
+    font-weight: bold;
+    color:black;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+.btn-rmv-all:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+    -moz-transition-delay: 0.03s;
+}
+
+.btn-rmv{
+    cursor: pointer;
+    height: 30px;
+    width: 90px;
+    background-color: red;
+    font-weight: bold;
+    color:black;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+.btn-rmv:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+    -moz-transition-delay: 0.03s;
+}
+
+.btn-update{
+    cursor: pointer;
+    height: 30px;
+    width: 110px;
+    background-color: cyan;
+    color:black;
+    font-weight: bold;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+.btn-update:hover{
+    transform: scale(0.9);
+    opacity: 0.7;
+    -moz-transition-delay: 0.03s;
+}
+
+/*----------------Total Price---------------------*/
+#totalPrice{
+    border:1px solid black;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#totalPrice h1{
+    margin-right: 100px;
+}
+
+#grandtotaltextbox{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    /*border:none;*/
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*-----------------Check Out Form---------------------*/
+.checkoutform{
+    padding:5px;
+    height:800px;
+}
+
+#idcheckoutform{
+    width:50%;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+#formtable{
+    font-size: 20px;
+    text-align:left;
+}
+
+#formtable input{
+    font-size: 15px;
+    height: 40px;
+    width: 400px;
+}
+
+#formtable select{
+    font-size: 15px;
+    height: 45px;
+    width: 405px;
+}
+
+#purchase-button{
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: auto;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    width: 110px;
+    outline: inset;
+    
+    border-radius: 5px;
+}
+
+#purchase-button:hover{
+    background-color: #12128a ;
+    color: white;
+    outline:outset;
+    cursor: pointer;
+}
+
+#purchase-button:active{
+    opacity: 0.7;
+}

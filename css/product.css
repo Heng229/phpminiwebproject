@@ -1,0 +1,145 @@
+/*Button*/
+.containerProd .highPerf .cartButton img,.officeUse .cartButton img{
+    width: 30px;
+    height: 30px;
+}
+
+.containerProd .highPerf #cartButtonNoLogin img,.officeUse #cartButtonNoLogin img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.ProdList .cartButton{
+    background-color: #ccc;
+    color : black;
+    cursor:pointer;
+    align-self: flex-end;
+    border:2px solid white;
+    height: 41px;
+    width: 170px;
+    margin-bottom:5px;
+}
+
+.ProdList .cartButton:hover{
+    cursor:pointer;
+    opacity: 0.8;
+    height:40px;
+    width: 171px;
+    background-color:#12128a;
+}
+
+.highPerf .ProdList .cartButton:hover{
+    cursor:pointer;
+    opacity: 0.8;
+    height:40px;
+    width: 171px;
+    border-color: cyan;
+    background-color:cyan;
+}
+
+.ProdList .cartButton:active{
+    cursor:pointer;
+    opacity: 0.7;
+    height:40px;
+    width:169px;
+    background-color:#ccc;
+}
+
+.ProdList #cartButtonNoLogin{
+    background-color: #ccc;
+    display: inline-block;
+    color : black;
+    cursor:pointer;
+    align-self: flex-end;
+    border:2px solid white;
+    height: 41px;
+    width: 170px;
+    margin-bottom:5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ProdList #cartButtonNoLogin:hover{
+    cursor:pointer;
+    display: inline-block;
+    opacity: 0.8;
+    height:40px;
+    width: 171px;
+    border-color: cyan;
+    background-color:cyan;
+}
+
+.ProdList #cartButtonNoLogin:active{
+    cursor:pointer;
+    opacity: 0.7;
+    height:40px;
+    width:169px;
+    background-color:#ccc;
+}
+/*----- Button End ------ */
+
+
+/*-------------------Middle Content-----------------*/
+
+.containerProd{
+    -moz-animation: fadein 0.5s;
+    margin-bottom: 10px;
+    margin-top:0;
+}
+
+.containerProd .highPerf img,.officeUse img{
+    height: 250px;
+    width: 300px;
+}
+
+.containerProd h1{
+    color:gray;
+    margin:0;
+}
+
+.officeUse{
+    margin-top:10px;
+}
+
+.officeUse .productListBox,.highPerf .productListBox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.officeUse .productListBox .ProdList{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    height:800px;
+    border : 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.highPerf .productListBox .ProdList{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    height:800px;
+    border : 1px solid cyan;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*----------Locate Image Start------*/
+.officeUse .productListBox .ProdList .imgLocator,.highPerf .productListBox .ProdList .imgLocator{
+    width:300px;
+    height:300px;
+}
+
+/*----------Locate Image End------*/
+
+
+
+/*----------Product Descript Start------*/
+.officeUse .productListBox .ProdList .prodDesc,.highPerf .productListBox .ProdList .prodDesc{
+    height: 400px;
+}

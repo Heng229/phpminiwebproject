@@ -1,0 +1,19 @@
+DROP TABLE salesrecord;
+
+CREATE TABLE salesrecord (
+	salesid int AUTO_INCREMENT PRIMARY KEY,
+	datepurchase VARCHAR(10),
+	userid int(5),
+	username VARCHAR(100),
+	phone int(10),
+	email VARCHAR(100),
+	deliverAddress VARCHAR(100),
+	countrystate VARCHAR(20),
+	city VARCHAR(100),
+	postcode int(5),
+	cardNum VARCHAR(100),
+	expyear int(4),
+	cvv VARCHAR(100),
+	totalAmount double(100,2),
+	cartItemlist VARCHAR(1300)
+);

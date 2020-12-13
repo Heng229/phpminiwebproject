@@ -1,0 +1,220 @@
+.container{
+    -moz-animation: fadein 0.5s;
+}
+
+/*header*/
+/*disable highlight*/
+::selection{
+    color:cyan;
+    background:black;
+}
+::-moz-selection{
+    color:cyan;
+    background: black;
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+body{
+    font-family: sans-serif;
+    margin:0;
+}
+
+.slogan{
+    background-color: black;
+    color:cyan;
+    width:100%;
+    text-align: center;
+}
+/*Nav Bar*/
+nav ul{
+    display: flex;
+    margin-top:0;
+    background-color: #12128a;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+nav ul > a li{
+    text-align: center;
+    border: 3px solid cyan;
+    background-color: black;
+    font-weight: bold;
+    width: 200px;
+    height:32px;
+    color:gray;
+    margin-top: 50px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+    list-style-type: none;
+}
+
+
+nav ul > a{
+    text-decoration:none;
+    color:gray;
+}
+
+nav ul > a li:hover{
+    opacity:0.8;
+    transform:scale(1.1);
+}
+
+nav ul > a li:active{
+    opacity:0.7;
+    transform:scale(0.9);
+    background-color: #ccc;
+}
+
+
+#thirdLiLogo{
+    background-color:#12128a;
+    border-style: hidden;
+    width:50px;
+}
+
+nav ul #logoAnchor {
+   position: absolute;
+   margin-right: auto;
+
+}
+
+#logButton{
+    position: absolute;
+    right:10px;
+    border: 3px solid cyan;
+    background-color: black;
+    color:gray;
+    height:20px;
+    width:160px;
+    padding-bottom: 10px;
+}
+
+#logButton a{
+    text-decoration: none;
+    color:gray;
+}
+
+#logButton img{
+    width:20px;
+    height:20px;
+}
+
+#logButton:hover{
+    opacity:0.8;
+    transform:scale(1.1);
+}
+
+#logButton:active{
+    opacity:0.7;
+    transform:scale(0.9);
+    background-color: #ccc;
+}
+
+/*After login*/
+.usernameBox{
+    position: absolute;
+    font-size: 10px;
+    right:10px;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    background-color:none;
+    height:20px;
+    width:240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.usernameBox a{
+    font-weight: bold;
+    text-decoration: none;
+    color:#ccc;
+}
+
+/*footer*/
+footer{
+    bottom:0;
+    display : flex;
+    justify-content: center;
+    background-color: #12128a;
+    height: 200px;
+}
+
+footer .footerBox{
+    width:90%;
+    height: 85%;
+    margin-top: 20px;
+    background-color: black;
+    color:gray;
+
+}
+
+footer .footerBox img{
+    width:20px;
+    height:20px;
+}
+
+/*address box*/
+footer .addressBox {
+    margin-top:40px;
+    margin-left: 50px;
+    width: 300px;
+}
+
+footer .addressBox .location a{
+    text-decoration: none;
+    color:gray;
+}
+
+footer .addressBox .location a:hover{
+    text-decoration: none;
+    color:gray;
+    opacity: 0.8;
+}
+
+footer .addressBox .locateSymbolBox{
+   position : absolute;
+   margin-left:10px;
+   margin-top: 18px;
+}
+
+footer .addressBox .location{
+    border:5px solid #12128a;
+    margin-left: 50px;
+}
+
+/*Footer box 2*/
+footer .footerBox2{
+    display : flex;
+}
+
+/*contact box*/
+footer .footerBox2 .contacts{
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+
+/*payment Box*/
+footer .footerBox2 .paymentBox{
+    color : #ccc;
+    margin-left: auto;
+    margin-right: 0;
+    align-self: flex-end;
+    
+    width:200px;
+}
+
+footer .footerBox2 .paymentBox img{
+    height: 35px;
+    width:35px;
+}
